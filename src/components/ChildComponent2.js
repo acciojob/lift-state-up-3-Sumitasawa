@@ -5,7 +5,7 @@ const ChildComponent2 = ({onSelect}) => {
     <div style={{backgroundColor:"yellow"}}>
         <h3>Child Component2</h3>
       <button onClick={() => onSelect("Option 2")}>
-        Option 2
+         Option 2
       </button>
     </div>
   )

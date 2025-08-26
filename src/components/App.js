@@ -11,15 +11,12 @@ const App = () => {
     setselectedOption(option)
   }
   return (
-    <div style={{backgroundColor:"green", width:500}}>
+    <div style={{backgroundColor:"green", width:500}} className="parent">
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
         <ChildComponent1 onSelect={handleChnage}/>
         <ChildComponent2 onSelect={handleChnage}/>
-
-        <p>Selected Option:{selectedOption}</p>
-
-
+        <p>Selected Option:  {selectedOption}</p>
     </div>
   )
 }
